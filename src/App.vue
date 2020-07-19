@@ -1,28 +1,35 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <div id="pad"></div>
+    <First />
+    <Second />
+    <Third />
+    <Fourth />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import First from "./components/first.vue";
+import Second from "./components/second.vue";
+import Third from "./components/third.vue";
+import Fourth from "./components/fourth";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    First,
+    Second,
+    Third,
+    Fourth
   }
 };
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+#pad {
+  margin-top: 3vh;
 }
 </style>
