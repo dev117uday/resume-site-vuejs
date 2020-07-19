@@ -21,7 +21,7 @@
       <center>
         <div class="b-container">
           <b-row>
-            <b-col>
+            <b-col class="text-right">
               <a target="_blank" v-bind:href="github"
                 ><img
                   src="../assets/images/icons/github.svg"
@@ -37,7 +37,7 @@
                   class="logo"
                 /> </a
             ></b-col>
-            <b-col>
+            <b-col class="text-left">
               <a target="_blank" :href="`mailto:${outlook}`"
                 ><img
                   src="../assets/images/icons/outlook.png"
@@ -48,7 +48,7 @@
           </b-row>
           <br />
           <b-row>
-            <b-col>
+            <b-col class="text-right">
               <a target="_blank" v-bind:href="instagram"
                 ><img
                   src="../assets/images/icons/instagram.png"
@@ -64,7 +64,7 @@
                   class="logo"
                 /> </a
             ></b-col>
-            <b-col>
+            <b-col class="text-left">
               <a target="_blank" v-bind:href="medium"
                 ><img
                   src="../assets/images/icons/medium.png"
