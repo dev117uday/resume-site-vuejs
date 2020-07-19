@@ -97,9 +97,9 @@
                 target="_blank"
                 href="https://sites.google.com/view/uday-yadav/articles?"
               >
-                <button class="btn" id="article-button">
+                <b-button class="btn" id="article-button">
                   See all articles
-                </button>
+                </b-button>
               </a>
             </div>
 
@@ -110,9 +110,9 @@
                 target="_blank"
                 href="https://sites.google.com/view/uday-yadav/projects"
               >
-                <button class="btn btn-info" id="article-button">
+                <b-button class="btn btn-info" id="article-button">
                   See all Projects
-                </button>
+                </b-button>
               </a>
             </div>
             <div class="col-sm-4">
@@ -122,7 +122,9 @@
                 target="_blank"
                 href="https://dev117uday.github.io/dev117uday/"
               >
-                <button class="btn" id="article-button">See all notes</button>
+                <b-button class="btn" id="article-button"
+                  >See all notes</b-button
+                >
               </a>
             </div>
           </div>
