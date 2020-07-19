@@ -100,7 +100,7 @@ export default {
       medium: "https://medium.com/@dev117uday",
       outlook: "yadav117uday@outlook.com",
       resume:
-        "https://drive.google.com/file/d/1ZK0om7lU9x661_0X0FcYGuafhLSqD7nH/view"
+        "https://drive.google.com/file/d/1V0hkVlETO9aZXHdL-wPrcX9fJnEkLMme/view?usp=sharing"
     };
   }
 };
