@@ -2,13 +2,12 @@
   <center id="front-page">
     <div id="front">
       <center>
-        <a href="../assets/images/linkedin.jpg"
-          ><img
-            class="non"
-            id="profile-image"
-            src="../assets/images/me.jpg"
-            alt="Uday Yadav"
-        /></a>
+        <img
+          class="non"
+          id="profile-image"
+          src="../assets/images/me.jpg"
+          alt="Uday Yadav"
+        />
         <h1 id="name">{{ name }}</h1>
         <p class="non" id="short-dis-a">{{ level }} | {{ position }}</p>
         <p class="non" id="short-dis-b">{{ aspiration }}</p>

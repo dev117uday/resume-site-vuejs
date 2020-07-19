@@ -1,0 +1,66 @@
+[debug] [2020-07-19T11:50:22.058Z] ----------------------------------------------------------------------
+[debug] [2020-07-19T11:50:22.059Z] Command:       /usr/bin/node /usr/bin/firebase deploy
+[debug] [2020-07-19T11:50:22.060Z] CLI Version:   8.6.0
+[debug] [2020-07-19T11:50:22.060Z] Platform:      linux
+[debug] [2020-07-19T11:50:22.060Z] Node Version:  v13.14.0
+[debug] [2020-07-19T11:50:22.060Z] Time:          Sun Jul 19 2020 17:20:22 GMT+0530 (India Standard Time)
+[debug] [2020-07-19T11:50:22.060Z] ----------------------------------------------------------------------
+[debug] [2020-07-19T11:50:22.060Z] 
+[debug] [2020-07-19T11:50:22.066Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-19T11:50:22.066Z] > authorizing via signed-in user
+[debug] [2020-07-19T11:50:22.066Z] [iam] checking project uday-yadav for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-07-19T11:50:22.068Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/uday-yadav:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-07-19T11:50:23.663Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 19 Jul 2020 11:50:23 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1357","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-07-19T11:50:23.664Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/uday-yadav  
+ 
+[debug] [2020-07-19T11:50:24.164Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 19 Jul 2020 11:50:24 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'uday-yadav'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-07-19T11:50:24.167Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/uday-yadav/versions  
+ {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-07-19T11:50:26.310Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 19 Jul 2020 11:50:26 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[uday-yadav]: beginning deploy... 
+[info] i  hosting[uday-yadav]: found 55 files in dist 
+[debug] [2020-07-19T11:50:26.764Z] [hosting] hash cache [ZGlzdA] stored for 55 files
+[debug] [2020-07-19T11:50:26.764Z] [hosting][hash queue][FINAL] {"max":412,"min":23,"avg":43.763636363636365,"active":0,"complete":55,"success":55,"errored":0,"retried":0,"total":55,"elapsed":441}
+[debug] [2020-07-19T11:50:26.764Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/uday-yadav/versions/a6af56c922501b3d:populateFiles  
+ <request body omitted>
+[debug] [2020-07-19T11:50:28.673Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 19 Jul 2020 11:50:28 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-07-19T11:50:28.682Z] [hosting][populate queue][FINAL] {"max":1912,"min":1912,"avg":1912,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1919}
+[debug] [2020-07-19T11:50:28.682Z] [hosting] uploads queued: 18
+[debug] [2020-07-19T11:50:30.715Z] [hosting][upload queue][FINAL] {"max":2041,"min":1849,"avg":1899.9444444444443,"active":0,"complete":18,"success":18,"errored":0,"retried":0,"total":18,"elapsed":2041}
+[info] ✔  hosting[uday-yadav]: file upload complete 
+[debug] [2020-07-19T11:50:30.716Z] [hosting] deploy completed after 4405ms
+[debug] [2020-07-19T11:50:30.716Z] [
+  {
+    "config": {
+      "public": "dist",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "uday-yadav"
+    },
+    "site": "uday-yadav",
+    "version": "sites/uday-yadav/versions/a6af56c922501b3d"
+  }
+]
+[info] i  hosting[uday-yadav]: finalizing version... 
+[debug] [2020-07-19T11:50:30.717Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/uday-yadav/versions/a6af56c922501b3d?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2020-07-19T11:50:32.459Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 19 Jul 2020 11:50:32 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-07-19T11:50:32.460Z] [hosting] finalized version for uday-yadav: {"name":"sites/uday-yadav/versions/a6af56c922501b3d","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-07-19T11:50:25.785446Z","createUser":{"email":"dev117uday@gmail.com"},"finalizeTime":"2020-07-19T11:50:32.303070Z","finalizeUser":{"email":"dev117uday@gmail.com"}}
+[info] ✔  hosting[uday-yadav]: version finalized 
+[info] i  hosting[uday-yadav]: releasing new version... 
+[debug] [2020-07-19T11:50:32.461Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/uday-yadav/releases?version_name=sites/uday-yadav/versions/a6af56c922501b3d  
+ {"message":null}
