@@ -152,6 +152,11 @@ export default {
           name: "SQL for Data Science",
           link:
             "https://www.coursera.org/account/accomplishments/certificate/QSZYQYTZBMXU"
+        },
+        {
+          name: "Getting Started with Go",
+          link:
+            "https://www.coursera.org/account/accomplishments/certificate/K8GJP29VXTUJ"
         }
       ],
       introjulia:
