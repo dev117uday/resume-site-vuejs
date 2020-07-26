@@ -21,56 +21,62 @@
         <div class="b-container">
           <b-row>
             <b-col class="text-right">
-              <a target="_blank" v-bind:href="github"
-                ><img
+              <a target="_blank" v-bind:href="github">
+                <img
                   src="../assets/images/icons/github.svg"
                   alt="github"
                   class="logo"
-                /> </a
-            ></b-col>
+                />
+              </a>
+            </b-col>
             <b-col>
-              <a target="_blank" v-bind:href="linkedin"
-                ><img
+              <a target="_blank" v-bind:href="linkedin">
+                <img
                   src="../assets/images/icons/linkedin.svg"
                   alt="linkedin"
                   class="logo"
-                /> </a
-            ></b-col>
+                />
+              </a>
+            </b-col>
             <b-col class="text-left">
-              <a target="_blank" :href="`mailto:${outlook}`"
-                ><img
+              <a target="_blank" :href="`mailto:${outlook}`">
+                <img
                   src="../assets/images/icons/outlook.png"
                   alt="outlook"
                   class="logo"
-                /> </a
-            ></b-col>
+                />
+              </a>
+            </b-col>
           </b-row>
           <br />
           <b-row>
             <b-col class="text-right">
-              <a target="_blank" v-bind:href="instagram"
-                ><img
+              <a target="_blank" v-bind:href="instagram">
+                <img
                   src="../assets/images/icons/instagram.png"
                   alt="instagram"
                   class="logo"
-                /> </a
-            ></b-col>
+                />
+              </a>
+            </b-col>
             <b-col>
-              <a target="_blank" v-bind:href="twitter"
-                ><img
+              <a target="_blank" v-bind:href="twitter">
+                <img
                   src="../assets/images/icons/twitter.png"
                   alt="twitter"
                   class="logo"
-                /> </a
-            ></b-col>
+                />
+              </a>
+            </b-col>
             <b-col class="text-left">
-              <a target="_blank" v-bind:href="medium"
-                ><img
+              <a target="_blank" v-bind:href="medium">
+                <img
                   src="../assets/images/icons/medium.png"
                   alt="medium"
                   class="logo"
-                /> </a
-            ></b-col>
+                />
+              </a>
+            </b-col>
           </b-row>
           <br />
           <center>
@@ -92,15 +98,15 @@ export default {
       name: "Uday Yadav",
       level: "Sophomore",
       position: "CSE undergrad",
-      aspiration: "Aspriring Software Engineer",
+      aspiration: "Aspiring Software Engineer",
       github: "https://github.com/dev117uday",
       instagram: "https://www.instagram.com/yadav117uday/",
-      twitter: "https://twitter.com/yadav117uday",
+      twitter: "https://twitter.com/dev117uday",
       linkedin: "https://www.linkedin.com/in/uday-yadav-cs/",
       medium: "https://medium.com/@dev117uday",
       outlook: "yadav117uday@outlook.com",
       resume:
-        "https://drive.google.com/file/d/1V0hkVlETO9aZXHdL-wPrcX9fJnEkLMme/view?usp=sharing"
+        "https://drive.google.com/file/d/1zFj0xBv16vsHbfdHpI_6HwbV9d0YOwX2/view?usp=sharing"
     };
   }
 };
