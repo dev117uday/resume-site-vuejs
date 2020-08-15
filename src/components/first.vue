@@ -101,7 +101,7 @@ export default {
       aspiration: "Aspiring Software Engineer",
       github: "https://github.com/dev117uday",
       instagram: "https://www.instagram.com/yadav117uday/",
-      twitter: "https://twitter.com/dev117uday",
+      twitter: "https://twitter.com/yadav117uday",
       linkedin: "https://www.linkedin.com/in/uday-yadav-cs/",
       medium: "https://medium.com/@dev117uday",
       outlook: "yadav117uday@outlook.com",

@@ -19,37 +19,45 @@
       <br />
       <center>
         <b-row>
-          <b-col cols="6" style="background-color: #11100f;">
-            <img
-              src="../assets/images/icons/01.svg"
-              alt="binary"
-              class="symbols"
-            />
-            <p class="short-dis-c 	non">{{ A }}</p>
+          <b-col cols="6" class="fourx">
+            <div style="background-color: #11100f;" id="one">
+              <img
+                src="../assets/images/icons/01.svg"
+                alt="binary"
+                class="symbols"
+              />
+              <p class="short-dis-c 	non">{{ A }}</p>
+            </div>
           </b-col>
-          <b-col cols="6" style="background-color: white;">
-            <img
-              src="../assets/images/icons/golangT.png"
-              alt="golang"
-              class="symbols"
-            />
-            <p class="short-dis-d 	non">{{ C }}</p>
+          <b-col cols="6" class="fourx">
+            <div style="background-color: white;" id="two">
+              <img
+                src="../assets/images/icons/golangT.png"
+                alt="golang"
+                class="symbols"
+              />
+              <p class="short-dis-d 	non">{{ C }}</p>
+            </div>
           </b-col>
-          <b-col cols="6" style="background-color: white;">
-            <img
-              src="../assets/images/icons/cpp.png"
-              alt="cpp"
-              class="symbols"
-            />
-            <p class="short-dis-d 	non">{{ D }}</p>
+          <b-col cols="6" class="fourx">
+            <div style="background-color: white;" id="three">
+              <img
+                src="../assets/images/icons/cpp.png"
+                alt="cpp"
+                class="symbols"
+              />
+              <p class="short-dis-d 	non">{{ D }}</p>
+            </div>
           </b-col>
-          <b-col cols="6" style="background-color: #11100f;">
-            <img
-              src="../assets/images/icons/web symbol.svg"
-              alt="web"
-              class="symbols"
-            />
-            <p class="short-dis-c 	non">{{ B }}</p>
+          <b-col cols="6" class="fourx">
+            <div style="background-color: #11100f;" id="four">
+              <img
+                src="../assets/images/icons/web symbol.svg"
+                alt="web"
+                class="symbols"
+              />
+              <p class="short-dis-c 	non">{{ B }}</p>
+            </div>
           </b-col>
         </b-row>
       </center>
@@ -117,5 +125,21 @@ export default {
 .short-dis-d {
   font-family: "Robota", sans-serif;
   color: black;
+}
+
+#one {
+  border-radius: 20px 0 0 0;
+}
+#two {
+  border-radius: 0 20px 0 0;
+}
+#three {
+  border-radius: 0 0 0 20px;
+}
+#four {
+  border-radius: 0 0 20px 0;
+}
+.fourx {
+  padding: 0 0 0 0;
 }
 </style>

@@ -21,9 +21,14 @@
                 <div>
                   <h3 class="ach-title">National Finalist Eyantra</h3>
                   <h5>2019-2020</h5>
-
                   Hosted by IIT-Bombay, EYRC is a annual Robotics Competition.
-                  Reached Finals but event cancelled due to Covid-19
+                  <br />
+                  Rank 6<sup>th</sup> in 1049 teams
+                  <a
+                    target="_blank"
+                    href="https://drive.google.com/file/d/17MSCJa-t_QFB253dCDN0QQ9t6sc0JVzc/view?usp=sharing"
+                    ><button class="btn btn-info">View Certificate</button></a
+                  >
                 </div>
               </b-col>
             </div>
@@ -37,7 +42,6 @@
             <!-- Copy Paste the above -->
           </b-row>
         </b-container>
-
         <br />
         <br />
       </center>
@@ -49,7 +53,6 @@
         <h1 class="non">Positions & Responsibility</h1>
         <br />
         <br />
-
         <b-container fluid>
           <b-row>
             <div class="col-sm-6">
@@ -65,8 +68,7 @@
                 <h5>2020 - current</h5>
                 <p>
                   Responsibility to manage technical aspect of Data Quest,
-                  college’s biggest community of coders, Data science and ML
-                  enthusiasts
+                  College’s biggest community of coders with over 500+ members
                 </p>
               </b-col>
             </div>
@@ -102,7 +104,6 @@
                 </b-button>
               </a>
             </div>
-
             <div class="col-sm-4">
               <br />
               <h1 class="">Projects</h1>

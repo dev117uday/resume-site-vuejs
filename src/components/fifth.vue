@@ -76,14 +76,14 @@
       <div id="mis">
         <div class="container">
           <div class="row">
-            <div class="col-sm-3">
+            <div class="col-md-2">
               <img
                 class="mis"
                 src="../assets/images/icons/julia.png"
                 alt="julia"
               />
             </div>
-            <div class="col-sm-3">
+            <div class="col-md-2">
               <br />
               <h4>
                 <a target="_blank" v-bind:href="introjulia"
