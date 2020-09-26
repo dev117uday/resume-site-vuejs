@@ -75,7 +75,7 @@ export default {
         "Hi, I am a CSE undergrad from GGSIP University. I am a passionate learner, interest in core cs concepts, different tools & frameworks to explore the world of computer science and software engineering.",
       second_para:
         "I can competently write code in many languages but mainly focuses on Golang, C++ & JavaScript. I love Go and making small projects in it, my goal is to be proficient in the long run. C++ and SQL for competitive coding and academia. I also know JavaScript, to do Web development in MEVN stack (V: Vue.js) to develop projects, working mostly with server-less cloud technologies.",
-      A: "Core CS, HPC",
+      A: "Core CS",
       B: "Js | MEVN Stack",
       C: "Golang",
       D: "C++"
