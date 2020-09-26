@@ -156,11 +156,11 @@
               <b-row>
                 <b-col cols="6">
                   <img
-                    src="../assets/images/icons/git.png"
+                    src="../assets/images/icons/docker.png"
                     alt="git"
                     class="prog-icon"
                   />
-                  <h5>Git</h5></b-col
+                  <h5>Docker</h5></b-col
                 >
                 <b-col cols="6">
                   <img

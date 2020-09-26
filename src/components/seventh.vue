@@ -27,7 +27,10 @@
                   <a
                     target="_blank"
                     href="https://drive.google.com/file/d/17MSCJa-t_QFB253dCDN0QQ9t6sc0JVzc/view?usp=sharing"
-                    ><button class="btn btn-info">View Certificate</button></a
+                  >
+                    <br /><button class="btn btn-info">
+                      View Certificate
+                    </button></a
                   >
                 </div>
               </b-col>
@@ -59,21 +62,38 @@
               <b-col cols="6">
                 <div>
                   <img
+                    src="../assets/images/icons/dsc-logo.png"
+                    alt="eyntra"
+                    class="ach"
+                  />
+                </div>
+                <h3 class="ach-title">Web Lead</h3>
+                <h4>Developer Student Clubs</h4>
+                <h5>2020 - current</h5>
+                <p>
+                  Responsibility to manage web operations at Google Developer
+                  Student Clubs ADGITM
+                </p>
+              </b-col>
+            </div>
+            <div class="col-sm-6">
+              <b-col cols="6">
+                <div>
+                  <img
                     src="../assets/images/icons/no circuit dark blue.png"
                     alt="eyntra"
                     class="ach"
                   />
                 </div>
-                <h3 class="ach-title">DataQuest - Tech Lead</h3>
+                <h3 class="ach-title">Tech Lead</h3>
+                <h4>DataQuest</h4>
                 <h5>2020 - current</h5>
                 <p>
                   Responsibility to manage technical aspect of Data Quest,
-                  College’s biggest community of coders with over 500+ members
+                  College’s biggest community of coders with over 700+ members
                 </p>
               </b-col>
             </div>
-
-            <div class="col-sm-6"></div>
           </b-row>
         </b-container>
 
@@ -97,7 +117,7 @@
               <h1 class="">Articles</h1>
               <a
                 target="_blank"
-                href="https://sites.google.com/view/uday-yadav/articles?"
+                href="https://dev117uday.github.io/dev117uday/"
               >
                 <b-button class="btn" id="article-button">
                   See all articles
@@ -119,10 +139,7 @@
             <div class="col-sm-4">
               <br />
               <h1 class="">Notes</h1>
-              <a
-                target="_blank"
-                href="https://dev117uday.github.io/dev117uday/"
-              >
+              <a target="_blank" href="https://dev117uday.github.io/notes-md/">
                 <b-button class="btn" id="article-button"
                   >See all notes</b-button
                 >
