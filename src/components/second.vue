@@ -41,11 +41,7 @@
           </b-col>
           <b-col cols="6" class="fourx">
             <div style="background-color: white;" id="three">
-              <img
-                src="../assets/images/icons/cpp.png"
-                alt="cpp"
-                class="symbols"
-              />
+              <img src="../assets/images/icons/java.png" alt="java" id="java" />
               <p class="short-dis-d 	non">{{ D }}</p>
             </div>
           </b-col>
@@ -72,13 +68,13 @@ export default {
   data() {
     return {
       first_para:
-        "Hi, I am a CSE undergrad from GGSIP University. I am a passionate learner, interest in core cs concepts, different tools & frameworks to explore the world of computer science and software engineering.",
+        "I am a CSE undergraduate. I am a passionate learner, interested in learning about core cs concepts and different tools & technologies to explore the world of computer science and software engineering.",
       second_para:
-        "I can competently write code in many languages but mainly focuses on Golang, C++ & JavaScript. I love Go and making small projects in it, my goal is to be proficient in the long run. C++ and SQL for competitive coding and academia. I also know JavaScript, to do Web development in MEVN stack (V: Vue.js) to develop projects, working mostly with server-less cloud technologies.",
-      A: "Core CS",
-      B: "Js | MEVN Stack",
+        "I can competently write code in Golang, Java & JavaScript with good knowledge about databases and cloud. I love Golang and making projects in it, the goal being to be proficient in the long run. I also use Java and JavaScript to collaboratively build projects with my colleagues.",
+      A: "Core Computer Science",
+      B: "Js | Vue",
       C: "Golang",
-      D: "C++"
+      D: "Java"
     };
   }
 };
@@ -111,6 +107,13 @@ export default {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
 }
+#java {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 70px;
+  height: 130px;
+}
+
 .symbols {
   margin-top: 10px;
   margin-bottom: 10px;

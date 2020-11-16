@@ -9,7 +9,7 @@
         <div class="col-sm-6">
           <b-col>
             <center>
-              <h3 class="text-center">Programming languages</h3>
+              <h4 class="text-center">Programming languages</h4>
               <br />
               <b-row>
                 <b-col cols="6">
@@ -22,11 +22,11 @@
                 >
                 <b-col cols="6">
                   <img
-                    src="../assets/images/icons/cpp.png"
+                    src="../assets/images/icons/java.png"
                     alt="cpp"
-                    class="prog-icon"
+                    id="java"
                   />
-                  <h5>C++</h5></b-col
+                  <h5>Java</h5></b-col
                 >
               </b-row>
               <b-row>
@@ -56,7 +56,7 @@
         <div class="col-sm-6">
           <b-col>
             <center>
-              <h3 class="text-center">Web Technologies</h3>
+              <h4 class="text-center">Frameworks & Databases</h4>
               <br />
               <b-row>
                 <b-col cols="6">
@@ -65,7 +65,7 @@
                     alt="vuejs"
                     class="prog-icon"
                   />
-                  <h5>Vuejs</h5>
+                  <h5>Vue.js</h5>
                 </b-col>
 
                 <b-col cols="6">
@@ -80,19 +80,19 @@
               <b-row>
                 <b-col cols="6">
                   <img
-                    src="../assets/images/icons/firebase.png"
-                    alt="firebase"
+                    src="../assets/images/icons/postgres.png"
+                    alt="postgres"
                     class="prog-icon"
                   />
-                  <h5>Firebase</h5>
+                  <h5>PostgreSQL</h5>
                 </b-col>
                 <b-col cols="6">
                   <img
-                    src="../assets/images/icons/heroku.png"
-                    alt="Heroku"
+                    src="../assets/images/icons/mongodb.png"
+                    alt="mongodb"
                     class="prog-icon"
                   />
-                  <h5>Heroku</h5>
+                  <h5>MongoDB</h5>
                 </b-col>
               </b-row>
             </center>
@@ -105,7 +105,7 @@
       <b-row>
         <div class="col-sm-6">
           <b-col>
-            <h3 class="text-center">Scripting & Styling</h3>
+            <h4 class="text-center">Scripting & Cloud</h4>
             <br />
             <center>
               <b-row>
@@ -121,36 +121,35 @@
                   <img
                     src="../assets/images/icons/css.png"
                     alt="css"
-                    style="width: 40px; height: 50px;"
+                    style="width: 40px; height: 50px"
                   />
                   <h5>CSS</h5></b-col
                 >
                 <b-col cols="6">
                   <img
-                    src="../assets/images/icons/bootstrap.png"
-                    alt="Rust"
+                    src="../assets/images/icons/gcp.png"
+                    alt="GCP"
                     class="prog-icon"
                   />
-                  <h5>Bootstrap</h5></b-col
-                >
+                  <h5>GCP</h5>
+                </b-col>
                 <b-col cols="6">
                   <img
-                    src="../assets/images/icons/markdown.png"
-                    alt="mardown"
-                    style="width: 50px; height: 50px;"
+                    src="../assets/images/icons/ibm-cloud.png"
+                    alt="IBM cloud"
+                    class="prog-icon"
                   />
-                  <h5>Markdown</h5></b-col
-                >
+                  <h5>IBM Cloud</h5>
+                </b-col>
               </b-row>
             </center>
-            <br />
             <br />
           </b-col>
         </div>
 
         <div class="col-sm-6">
           <b-col>
-            <h3 class="text-center">Tools & Services</h3>
+            <h4 class="text-center">Tools & Technologies</h4>
             <br />
             <center>
               <b-row>
@@ -158,7 +157,7 @@
                   <img
                     src="../assets/images/icons/docker.png"
                     alt="git"
-                    class="prog-icon"
+                    id="docker"
                   />
                   <h5>Docker</h5></b-col
                 >
@@ -166,7 +165,7 @@
                   <img
                     src="../assets/images/icons/github.svg"
                     alt="github"
-                    style="width: 40px; height: 50px;"
+                    style="width: 40px; height: 50px"
                   />
                   <h5>Github</h5></b-col
                 >
@@ -189,11 +188,8 @@
               </b-row>
             </center>
             <br />
-            <br />
           </b-col>
         </div>
-        <br />
-        <br />
       </b-row>
     </b-container>
 
@@ -229,9 +225,20 @@ export default {
   font-size: 50px;
 }
 .prog-icon {
-  width: 50px;
+  width: 45px;
+  height: 45px;
+}
+
+#java {
+  width: 30px;
   height: 50px;
 }
+
+#docker {
+  width: 90px;
+  height: 50px;
+}
+
 .light-grey {
   background-color: #f3f2f1;
   width: 100vw;

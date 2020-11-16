@@ -4,10 +4,11 @@
     <First />
     <Second />
     <Third />
-    <Fourth />
-    <Fifth />
-    <Sixth />
     <Seventh />
+    <Fourth />
+    <Sixth />
+    <Fifth />
+    <Eighth />
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import Fourth from "./components/fourth";
 import Fifth from "./components/fifth.vue";
 import Sixth from "./components/sixth.vue";
 import Seventh from "./components/seventh.vue";
+import Eighth from "./components/eighth.vue";
 
 export default {
   name: "App",
@@ -29,7 +31,8 @@ export default {
     Fourth,
     Fifth,
     Sixth,
-    Seventh
+    Seventh,
+    Eighth
   }
 };
 </script>

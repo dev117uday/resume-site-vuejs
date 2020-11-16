@@ -1,13 +1,12 @@
 <template>
   <div>
-    <div id="fourth-page" class="light-grey">
+    <div id="fourth-page">
       <center>
         <br />
         <h1 class="section-header non">Experience</h1>
         <br />
         <br />
         <h3>Yet to experience the industry</h3>
-        <br />
         <br />
       </center>
     </div>

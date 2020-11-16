@@ -8,6 +8,7 @@
           src="../assets/images/me.jpg"
           alt="Uday Yadav"
         />
+        <br />
         <h1 id="name">{{ name }}</h1>
         <p class="non" id="short-dis-a">{{ level }} | {{ position }}</p>
         <p class="non" id="short-dis-b">{{ aspiration }}</p>
@@ -106,7 +107,7 @@ export default {
       medium: "https://medium.com/@dev117uday",
       outlook: "yadav117uday@outlook.com",
       resume:
-        "https://drive.google.com/file/d/1wdXwyv0yuQ4hOUVHIyoMBK_0cDrQtQAY/view?usp=sharing"
+        "https://drive.google.com/file/d/1vGINpbqMpBf034QjHZPxIKD7Ve-x15DF/view?usp=sharing"
     };
   }
 };
@@ -142,9 +143,9 @@ export default {
 }
 
 #profile-image {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
+  width: 235px;
+  height: 235px;
+  border-radius: 50px;
 }
 
 .logo {

@@ -5,13 +5,75 @@
       <h1 class="section-header non" style="font-size: 40px;">
         Certifications
       </h1>
-      <br />
+
+      <hr />
+
+      <div id="mis">
+        <div class="container">
+          <center>
+            <h2>30 days of Google Cloud</h2>
+            <br />
+          </center>
+          <div class="row">
+            <div class="col-md-2">
+              <img
+                class="gcp"
+                src="../assets/images/gcp/1.png"
+                alt="gcp 30 days"
+              />
+            </div>
+            <div class="col-md-2">
+              <img
+                class="gcp"
+                src="../assets/images/gcp/2.png"
+                alt="gcp 30 days"
+              />
+            </div>
+            <div class="col-md-2">
+              <img
+                class="gcp2"
+                src="../assets/images/gcp/3.png"
+                alt="gcp 30 days"
+              />
+            </div>
+            <div class="col-md-2">
+              <img
+                class="gcp2"
+                src="../assets/images/gcp/4.png"
+                alt="gcp 30 days"
+              />
+            </div>
+            <div class="col-md-2">
+              <img
+                class="gcp2"
+                src="../assets/images/gcp/6.png"
+                alt="gcp 30 days"
+              />
+            </div>
+            <div class="col-md-2">
+              <img
+                class="gcp"
+                src="../assets/images/gcp/7.png"
+                alt="gcp 30 days"
+              />
+            </div>
+          </div>
+          <br />
+          <center>
+            <a
+              target="_blank"
+              href="https://www.qwiklabs.com/public_profiles/c62773b6-afd9-4310-8602-1e141a973a0c"
+              ><p>View All Badges</p></a
+            >
+          </center>
+        </div>
+      </div>
+
+      <hr />
 
       <div id="fcc" class="row">
         <br />
-        <br />
         <div class="col-sm-6">
-          <br />
           <br />
           <img src="../assets/images/icons/fcc.jpeg" class="cert-logo" />
           <br />
@@ -35,7 +97,7 @@
           </ul>
         </div>
         <br />
-        <br />
+
         <p>&nbsp;</p>
       </div>
 
@@ -53,7 +115,8 @@
         </div>
         <div class="col-sm-6">
           <br />
-
+          <br />
+          <br />
           <ul id="cousera-list" class="text-left">
             <li
               style="font-size: 20px"
@@ -66,36 +129,31 @@
             </li>
           </ul>
         </div>
-        <br />
-        <br />
-        <p>&nbsp;</p>
       </div>
 
-      <br />
+      <hr />
 
       <div id="mis">
         <div class="container">
           <div class="row">
             <div class="col-md-2">
               <img
-                class="mis"
-                src="../assets/images/icons/julia.png"
-                alt="julia"
+                id="mongo"
+                src="../assets/images/icons/mongo-uni.png"
+                alt="mongo db university"
               />
             </div>
             <div class="col-md-2">
               <br />
-              <h4>
-                <a target="_blank" v-bind:href="introjulia"
-                  >Introduction to Julia Programming Language</a
-                >
-              </h4>
+              <h5>
+                <a target="_blank" v-bind:href="intromongo">MongoDB Basics</a>
+              </h5>
             </div>
           </div>
         </div>
       </div>
-      <br />
-      <br />
+
+      <hr />
     </center>
   </div>
 </template>
@@ -159,8 +217,8 @@ export default {
             "https://www.coursera.org/account/accomplishments/certificate/K8GJP29VXTUJ"
         }
       ],
-      introjulia:
-        "https://drive.google.com/file/d/1soVRsVmfsmUzM197nevGsCPJ71utafTP/view?usp=sharing"
+      intromongo:
+        "https://drive.google.com/file/d/1inHAWCR7TEca_VkWF_1UGMDqKq4g1h7Z/view?usp=sharing"
     };
   }
 };
@@ -215,6 +273,18 @@ export default {
 
 .mis {
   width: 120px;
+  height: 100px;
+}
+#mongo {
+  width: 180px;
+  height: 100px;
+}
+.gcp {
+  width: 100px;
+  height: 100px;
+}
+.gcp2 {
+  width: 130px;
   height: 100px;
 }
 </style>

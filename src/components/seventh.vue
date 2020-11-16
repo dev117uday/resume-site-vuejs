@@ -3,7 +3,7 @@
     <div>
       <center>
         <br />
-        <h1 class="section-header non">Achievement</h1>
+        <h1 class="section-header non">Achievements</h1>
         <br />
         <br />
 
@@ -54,8 +54,7 @@
       <center>
         <br />
         <h1 class="non">Positions & Responsibility</h1>
-        <br />
-        <br />
+        <p>( In local communities )</p>
         <b-container fluid>
           <b-row>
             <div class="col-sm-6">
@@ -68,7 +67,9 @@
                   />
                 </div>
                 <h3 class="ach-title">Web Lead</h3>
-                <h4>Developer Student Clubs</h4>
+                <a target="_blank" href="https://dsc-adgitm.web.app/"
+                  ><h4>Developer Student Clubs ADGITM</h4></a
+                >
                 <h5>2020 - current</h5>
                 <p>
                   Responsibility to manage web operations at Google Developer
@@ -85,7 +86,7 @@
                     class="ach"
                   />
                 </div>
-                <h3 class="ach-title">Tech Lead</h3>
+                <h3 class="ach-title">Core Team</h3>
                 <h4>DataQuest</h4>
                 <h5>2020 - current</h5>
                 <p>
@@ -105,62 +106,6 @@
 
         <br />
         <br />
-      </center>
-    </div>
-
-    <div>
-      <center>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-4">
-              <br />
-              <h1 class="">Articles</h1>
-              <a
-                target="_blank"
-                href="https://dev117uday.github.io/dev117uday/"
-              >
-                <b-button class="btn" id="article-button">
-                  See all articles
-                </b-button>
-              </a>
-            </div>
-            <div class="col-sm-4">
-              <br />
-              <h1 class="">Projects</h1>
-              <a
-                target="_blank"
-                href="https://sites.google.com/view/uday-yadav/projects"
-              >
-                <b-button class="btn btn-info" id="article-button">
-                  See all Projects
-                </b-button>
-              </a>
-            </div>
-            <div class="col-sm-4">
-              <br />
-              <h1 class="">Notes</h1>
-              <a target="_blank" href="https://dev117uday.github.io/notes-md/">
-                <b-button class="btn" id="article-button"
-                  >See all notes</b-button
-                >
-              </a>
-            </div>
-          </div>
-        </div>
-        <br />
-      </center>
-    </div>
-
-    <div id="footer">
-      <center>
-        <h5 id="footer-h">
-          By : Uday Yadav using
-          <a target="_blank" href="https://vuejs.org/">
-            <img
-              src="../assets/images/icons/vuejs.png"
-              style="height: 15px; width: 15px;"
-          /></a>
-        </h5>
       </center>
     </div>
   </div>

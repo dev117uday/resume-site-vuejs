@@ -15,7 +15,7 @@
               src="../assets/images/icons/ryan.jpg"
               alt="Ryan International School"
             />
-            <p class="non">10<sup>th</sup> Grade and 12<sup>th</sup> Grade</p>
+            <p class="non">10<sup>th</sup> Grade & 12<sup>th</sup> Grade</p>
             <p>Ryan International School, Mayur Vihar</p>
           </div>
           <div class="col-sm-6">
@@ -30,8 +30,8 @@
             />
             <br />
             <br />
-            <p class="non">B.tech Computer Science Engineer</p>
-            <p>GGSIPU : ADGITM</p>
+            <p class="non">B.tech Computer Science Engineering</p>
+            <p>ADGITM affiliated to GGSIPU</p>
           </div>
         </div>
       </div>
