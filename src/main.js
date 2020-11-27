@@ -1,6 +1,5 @@
 import Vue from "vue";
 import App from "./App.vue";
-import "./registerServiceWorker";
 
 import { BootstrapVue } from "bootstrap-vue";
 Vue.use(BootstrapVue);

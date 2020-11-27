@@ -2,6 +2,7 @@
   <div>
     <div>
       <center>
+        <hr />
         <br />
         <h1 class="section-header non">Achievements</h1>
         <br />
@@ -22,13 +23,13 @@
                   <h3 class="ach-title">National Finalist Eyantra</h3>
                   <h5>2019-2020</h5>
                   Hosted by IIT-Bombay, EYRC is a annual Robotics Competition.
-                  <br />
                   Rank 6<sup>th</sup> in 1049 teams
+                  <br />
                   <a
                     target="_blank"
                     href="https://drive.google.com/file/d/17MSCJa-t_QFB253dCDN0QQ9t6sc0JVzc/view?usp=sharing"
                   >
-                    <br /><button class="btn btn-info">
+                    <button class="btn btn-info">
                       View Certificate
                     </button></a
                   >
@@ -103,8 +104,6 @@
             <!-- Copy Paste the above -->
           </b-row>
         </b-container>
-
-        <br />
         <br />
       </center>
     </div>

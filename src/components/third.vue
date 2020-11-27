@@ -1,7 +1,6 @@
 <template>
   <div>
     <br />
-    <br />
     <center>
       <h1 class="section-header non">Education</h1>
       <br />
@@ -15,14 +14,13 @@
               src="../assets/images/icons/ryan.jpg"
               alt="Ryan International School"
             />
+            <br />
             <p class="non">10<sup>th</sup> Grade & 12<sup>th</sup> Grade</p>
             <p>Ryan International School, Mayur Vihar</p>
           </div>
           <div class="col-sm-6">
             <p id="high-school" class="non">Graduation</p>
-            <br />
-            <br />
-            <br />
+            <!-- <br /> -->
             <img
               id="ggsipu"
               src="../assets/images/icons/ggsipu.png"

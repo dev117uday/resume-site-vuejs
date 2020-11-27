@@ -106,15 +106,24 @@ export default {
       linkedin: "https://www.linkedin.com/in/uday-yadav-cs/",
       medium: "https://medium.com/@dev117uday",
       outlook: "yadav117uday@outlook.com",
-      resume:
-        "https://drive.google.com/file/d/1vGINpbqMpBf034QjHZPxIKD7Ve-x15DF/view?usp=sharing"
+      resume: ""
     };
+  },
+  mounted: function() {
+    let theUrl =
+      "https://gist.githubusercontent.com/dev117uday/f9476734b86fa3b56e4a1f3cfc9c37d2/raw/1a4e3167c118d7d431fbc4a3b2d934e0e7b20738/details.json";
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open("GET", theUrl, false); // false for synchronous request
+    xmlHttp.send(null);
+    let jsonString = xmlHttp.responseText;
+    let data = JSON.parse(jsonString);
+    this.resume = data.resume_link;
   }
 };
 </script>
 
 <style scoped lang="scss">
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googl  eapis.com/css2?family=Roboto:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 .non {

@@ -1,21 +1,24 @@
 <template>
   <div id="second-page" class="light-grey">
     <br />
-    <br />
+
     <h1 class="non" id="about-me">
       About Myself
     </h1>
     <br />
-    <br />
     <b-container>
       <div id="intro">
-        <p>
-          {{ first_para }}
-        </p>
-        <p class="non">
-          {{ second_para }}
-        </p>
+        <b-col cols="11">
+          <p>
+            {{ first_para }}
+          </p>
+          <p class="non">
+            {{ second_para }}
+          </p>
+        </b-col>
       </div>
+    </b-container>
+    <b-container>
       <br />
       <center>
         <b-row>
@@ -70,7 +73,7 @@ export default {
       first_para:
         "I am a CSE undergraduate. I am a passionate learner, interested in learning about core cs concepts and different tools & technologies to explore the world of computer science and software engineering.",
       second_para:
-        "I can competently write code in Golang, Java & JavaScript with good knowledge about databases and cloud. I love Golang and making projects in it, the goal being to be proficient in the long run. I also use Java and JavaScript to collaboratively build projects with my colleagues.",
+        " I can competently write code in Golang, Java & JavaScript with good knowledge about databases and cloud. I love Golang and making projects in it, the goal being to be proficient in the long run. I also use Java and JavaScript to collaboratively build projects with my colleagues.",
       A: "Core Computer Science",
       B: "Js | Vue",
       C: "Golang",
