@@ -1,5 +1,5 @@
 <template>
-  <div class="light-grey">
+  <div>
     <br />
     <h1 class="section-header non text-center">Skills</h1>
     <br />

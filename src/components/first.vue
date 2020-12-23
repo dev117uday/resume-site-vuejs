@@ -104,7 +104,7 @@ export default {
       instagram: "https://www.instagram.com/yadav117uday/",
       twitter: "https://twitter.com/yadav117uday",
       linkedin: "https://www.linkedin.com/in/uday-yadav-cs/",
-      medium: "https://medium.com/@dev117uday",
+      medium: "https://dev117uday.medium.com/",
       outlook: "yadav117uday@outlook.com",
       resume: ""
     };

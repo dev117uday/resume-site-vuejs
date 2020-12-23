@@ -1,25 +1,39 @@
 <template>
-  <div>
+  <div class="light-grey">
     <div>
       <center>
         <div class="container">
+          <center>
+            <br />
+            <h1>Writings</h1>
+          </center>
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-4">
               <br />
-              <h1 class="">Articles</h1>
-              <a target="_blank" href="https://dev117uday.gitbook.io/codeblog/">
+              <h3 class="">Codeblog.md</h3>
+              <a target="_blank" href="https://dev117uday.github.io/codeblog/">
                 <b-button class="btn" id="article-button">
-                  See all articles
+                  Checkout
                 </b-button>
               </a>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
               <br />
-              <h1 class="">Notes</h1>
+              <h3 class="">Notes.md</h3>
               <a target="_blank" href="https://dev117uday.gitbook.io/notes-md/">
                 <b-button class="btn" id="article-button"
                   >See all notes</b-button
                 >
+              </a>
+            </div>
+            <div class="col-sm-4">
+              <br />
+              <h3 class="">Golang.md</h3>
+              <a
+                target="_blank"
+                href="https://dev117uday.gitbook.io/golang-md/"
+              >
+                <b-button class="btn" id="article-button">Checkout</b-button>
               </a>
             </div>
           </div>

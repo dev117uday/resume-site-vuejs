@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="light-grey">
     <div id="fourth-page">
       <center>
         <br />

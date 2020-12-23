@@ -1,13 +1,8 @@
 <template>
-  <div>
+  <div class="light-grey">
     <center>
-      <br />
-      <h1 class="section-header non" style="font-size: 40px;">
-        Certifications
-      </h1>
-
+      <h1 class="section-header non" style="font-size: 40px">Certifications</h1>
       <hr />
-
       <div id="mis">
         <div class="container">
           <center>
@@ -69,8 +64,6 @@
         </div>
       </div>
 
-      <hr />
-
       <div id="fcc" class="row">
         <br />
         <div class="col-sm-6">
@@ -89,7 +82,7 @@
             <li v-for="certificate in fcc" :key="certificate.name">
               <a
                 target="_blank"
-                style="color: white;"
+                style="color: white"
                 v-bind:href="certificate.link"
                 >{{ certificate.name }}</a
               >
@@ -139,12 +132,9 @@
             <div class="col-md-4">
               <img
                 id="mongo"
-                src="../assets/images/icons/mongo-uni.png"
+                src="../assets/images/icons/mongodb.jpg"
                 alt="mongo db university"
               />
-            </div>
-            <div class="col-md-2">
-              <br />
               <h5>
                 <a target="_blank" v-bind:href="intromongo">MongoDB Basics</a>
               </h5>
@@ -152,8 +142,7 @@
           </div>
         </div>
       </div>
-
-      <hr />
+      <br />
     </center>
   </div>
 </template>
@@ -276,8 +265,8 @@ export default {
   height: 100px;
 }
 #mongo {
-  width: 180px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
 }
 .gcp {
   width: 100px;

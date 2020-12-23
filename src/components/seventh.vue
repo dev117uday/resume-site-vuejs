@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div>
+    <div class="light-grey">
       <center>
         <hr />
         <br />
@@ -50,8 +50,8 @@
         <br />
       </center>
     </div>
-
-    <div class="light-grey">
+    <br />
+    <div>
       <center>
         <br />
         <h1 class="non">Positions & Responsibility</h1>
