@@ -135,11 +135,11 @@
                 </b-col>
                 <b-col cols="6">
                   <img
-                    src="../assets/images/icons/ibm-cloud.png"
-                    alt="IBM cloud"
+                    src="../assets/images/icons/heroku.png"
+                    alt="Heroku"
                     class="prog-icon"
                   />
-                  <h5>IBM Cloud</h5>
+                  <h5>Heroku</h5>
                 </b-col>
               </b-row>
             </center>
