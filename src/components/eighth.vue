@@ -5,7 +5,7 @@
         <div class="container">
           <center>
             <br />
-            <h1>Writings</h1>
+            <h1>Find My Writings</h1>
           </center>
           <div class="row">
             <div class="col-sm-4">
@@ -34,6 +34,50 @@
                 href="https://dev117uday.gitbook.io/golang-md/"
               >
                 <b-button class="btn" id="article-button">Checkout</b-button>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <br />
+              <h3 class="">DSA.md</h3>
+              <a target="_blank" href="https://dev117uday.gitbook.io/ds-and-a/">
+                <b-button class="btn" id="article-button">
+                  Checkout
+                </b-button>
+              </a>
+            </div>
+            <div class="col-sm-4">
+              <br />
+              <h3 class="">Java.md</h3>
+              <a target="_blank" href="https://dev117uday.gitbook.io/java/">
+                <b-button class="btn" id="article-button"
+                  >See all notes</b-button
+                >
+              </a>
+            </div>
+            <div class="col-sm-4">
+              <br />
+              <h3 class="">Learning GCP</h3>
+              <a
+                target="_blank"
+                href="https://dev117uday.github.io/learning-gcp/"
+              >
+                <b-button class="btn" id="article-button">Checkout</b-button>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <br />
+              <h3 class="">Project Idea</h3>
+              <a
+                target="_blank"
+                href="https://dev117uday.github.io/project-idea/"
+              >
+                <b-button class="btn" id="article-button">
+                  Checkout
+                </b-button>
               </a>
             </div>
           </div>

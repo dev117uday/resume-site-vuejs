@@ -1,13 +1,11 @@
 <template>
-  <div>
-    <div class="light-grey">
+  <div class="">
+    <div>
       <center>
-        <hr />
         <br />
         <h1 class="section-header non">Achievements</h1>
         <br />
         <br />
-
         <b-container fluid>
           <b-row>
             <div class="col-sm-6">
@@ -51,11 +49,11 @@
       </center>
     </div>
     <br />
-    <div>
+    <div class="light-grey">
       <center>
         <br />
         <h1 class="non">Positions & Responsibility</h1>
-        <p>( In local communities )</p>
+        <p>( In College communities )</p>
         <b-container fluid>
           <b-row>
             <div class="col-sm-6">
@@ -69,9 +67,9 @@
                 </div>
                 <h3 class="ach-title">Web Lead</h3>
                 <a target="_blank" href="https://dsc-adgitm.web.app/"
-                  ><h4>Developer Student Clubs ADGITM</h4></a
+                  ><h4>DSCADGITM</h4></a
                 >
-                <h5>2020 - current</h5>
+                <h5>Sept '20 - Jan '21</h5>
                 <p>
                   Responsibility to manage web operations at Google Developer
                   Student Clubs ADGITM
@@ -89,10 +87,10 @@
                 </div>
                 <h3 class="ach-title">Core Team</h3>
                 <h4>DataQuest</h4>
-                <h5>2020 - current</h5>
+                <h5>Sept '20 - Jan '21</h5>
                 <p>
-                  Responsibility to manage technical aspect of Data Quest,
-                  College’s biggest community of coders with over 700+ members
+                  Responsibility to manage technical aspects with over 700+
+                  members
                 </p>
               </b-col>
             </div>

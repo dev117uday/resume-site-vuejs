@@ -1,15 +1,25 @@
 <template>
   <div class="light-grey">
+    <hr />
     <div id="fourth-page">
       <center>
-        <br />
         <h1 class="section-header non">Experience</h1>
         <br />
-        <br />
-        <h3>Yet to experience the industry</h3>
-        <br />
+        <b-container class="bv-example-row">
+          <b-row>
+            <b-col sm="4">
+              <img src="../assets/images/icons/eth-icon.png" id="eth" />
+            </b-col>
+            <b-col sm="8 text-left">
+              <h3>Devfolio Ethereum India Fellowship 2.0</h3>
+              <h6 class="text-muted">1<sup>st</sup> Feb 21 -</h6>
+              <p>To be summarised :)</p>
+            </b-col>
+          </b-row>
+        </b-container>
       </center>
     </div>
+    <br />
   </div>
 </template>
 
@@ -44,5 +54,9 @@ export default {
 .light-grey {
   background-color: #f3f2f1;
   width: 100vw;
+}
+#eth {
+  width: 200px;
+  height: 200px;
 }
 </style>

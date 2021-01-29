@@ -1,5 +1,6 @@
 <template>
   <center id="front-page">
+    <br />
     <div id="front">
       <center>
         <img
@@ -70,10 +71,10 @@
               </a>
             </b-col>
             <b-col class="text-left">
-              <a target="_blank" v-bind:href="medium">
+              <a target="_blank" v-bind:href="leetcode">
                 <img
-                  src="../assets/images/icons/medium.png"
-                  alt="medium"
+                  src="../assets/images/icons/LeetCode.png"
+                  alt="leetcode"
                   class="logo"
                 />
               </a>
@@ -82,7 +83,7 @@
           <br />
           <center>
             <a target="_blank" v-bind:href="resume">
-              <b-button id="resume-button">Resume</b-button>
+              <b-button id="resume-button">Resume PDF</b-button>
             </a>
           </center>
         </div>
@@ -104,7 +105,7 @@ export default {
       instagram: "https://www.instagram.com/yadav117uday/",
       twitter: "https://twitter.com/yadav117uday",
       linkedin: "https://www.linkedin.com/in/uday-yadav-cs/",
-      medium: "https://dev117uday.medium.com/",
+      leetcode: "https://leetcode.com/dev117uday/",
       outlook: "yadav117uday@outlook.com",
       resume: ""
     };

@@ -20,13 +20,11 @@
           </div>
           <div class="col-sm-6">
             <p id="high-school" class="non">Graduation</p>
-            <!-- <br /> -->
             <img
               id="ggsipu"
               src="../assets/images/icons/ggsipu.png"
               alt="Ryan International School"
             />
-            <br />
             <br />
             <p class="non">B.tech Computer Science Engineering</p>
             <p>ADGITM affiliated to GGSIPU</p>
