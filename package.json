@@ -8,14 +8,24 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "yarn run lint && yarn run build && firebase deploy"
+    "deploy": "npm run lint && npm run build && firebase deploy"
   },
   "dependencies": {
+    "@popperjs/core": "^2.6.0",
+    "@vue/cli": "^4.5.11",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "core-js": "^3.6.5",
+    "firebase": "^8.2.7",
+    "firebase-tools": "^9.3.0",
+    "jquery": "^3.5.1",
+    "nodemon": "^2.0.7",
+    "popper.js": "^1.16.1",
     "register-service-worker": "^1.7.1",
-    "vue": "^2.6.11"
+    "terser-webpack-plugin": "^5.1.1",
+    "vue": "^2.6.11",
+    "webpack": "^5.21.2",
+    "webpack-sources": "^2.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
