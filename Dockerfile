@@ -1,4 +1,6 @@
-FROM node:latest as build-stage
+FROM alpine as build-stage
+RUN apk add nodejs npm
+RUN npm i -g yarn
 WORKDIR /app
 COPY package*.json ./
 RUN yarn install
