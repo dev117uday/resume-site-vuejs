@@ -1,6 +1,5 @@
-FROM alpine as build-stage
-RUN apk add nodejs npm
-RUN npm i -g yarn
+FROM node:15.12.0-alpine3.10 as build-stage
+RUN npm install -g @vue/cli
 WORKDIR /app
 COPY package*.json ./
 RUN yarn install
