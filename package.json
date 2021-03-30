@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "author": "Uday Yadav",
   "description": "Resume Site - Uday Yadav",
+  "license": "MIT",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

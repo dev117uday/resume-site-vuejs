@@ -13,14 +13,14 @@
             <div class="col-md-2">
               <img decode="async"
                 class="gcp"
-                src="../assets/images/gcp/1.png"
+                src="../assets/images/gcp/1.jpg"
                 alt="gcp 30 days"
               />
             </div>
             <div class="col-md-2">
               <img decode="async"
                 class="gcp"
-                src="../assets/images/gcp/2.png"
+                src="../assets/images/gcp/2.jpg"
                 alt="gcp 30 days"
               />
             </div>
