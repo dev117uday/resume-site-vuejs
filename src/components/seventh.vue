@@ -11,7 +11,7 @@
             <div class="col-sm-6">
               <b-col cols="6">
                 <div>
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/eyantra1.png"
                     alt="eyntra"
                     class="ach"
@@ -59,7 +59,7 @@
             <div class="col-sm-6">
               <b-col cols="6">
                 <div>
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/dsc-logo.png"
                     alt="eyntra"
                     class="ach"
@@ -79,7 +79,7 @@
             <div class="col-sm-6">
               <b-col cols="6">
                 <div>
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/no circuit dark blue.png"
                     alt="eyntra"
                     class="ach"

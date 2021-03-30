@@ -7,8 +7,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "deploy": "npm run lint && npm run build && firebase deploy"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "@popperjs/core": "^2.6.0",

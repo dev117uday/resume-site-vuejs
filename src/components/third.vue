@@ -9,7 +9,7 @@
         <div class="row">
           <div class="col-sm-6">
             <p id="high-school" class="non">High School</p>
-            <img
+            <img decode="async"
               class="ins"
               src="../assets/images/icons/ryan.jpg"
               alt="Ryan International School"
@@ -20,7 +20,7 @@
           </div>
           <div class="col-sm-6">
             <p id="high-school" class="non">Graduation</p>
-            <img
+            <img decode="async"
               id="ggsipu"
               src="../assets/images/icons/ggsipu.png"
               alt="Ryan International School"

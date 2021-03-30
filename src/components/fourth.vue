@@ -8,7 +8,7 @@
         <b-container class="bv-example-row">
           <b-row>
             <b-col sm="4">
-              <img src="../assets/images/icons/eth-icon.png" id="eth" />
+              <img decode="async" src="../assets/images/icons/eth-icon.png" id="eth" />
             </b-col>
             <b-col sm="8 text-left">
               <h3>Devfolio Ethereum India Fellowship 2.0</h3>

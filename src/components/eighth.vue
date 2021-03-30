@@ -91,7 +91,7 @@
         <h5 id="footer-h">
           By : Uday Yadav using
           <a target="_blank" href="https://vuejs.org/">
-            <img
+            <img decode="async"
               src="../assets/images/icons/vuejs.png"
               style="height: 15px; width: 15px;"
           /></a>

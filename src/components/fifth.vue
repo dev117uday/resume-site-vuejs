@@ -11,42 +11,42 @@
           </center>
           <div class="row">
             <div class="col-md-2">
-              <img
+              <img decode="async"
                 class="gcp"
                 src="../assets/images/gcp/1.png"
                 alt="gcp 30 days"
               />
             </div>
             <div class="col-md-2">
-              <img
+              <img decode="async"
                 class="gcp"
                 src="../assets/images/gcp/2.png"
                 alt="gcp 30 days"
               />
             </div>
             <div class="col-md-2">
-              <img
+              <img decode="async"
                 class="gcp2"
                 src="../assets/images/gcp/3.png"
                 alt="gcp 30 days"
               />
             </div>
             <div class="col-md-2">
-              <img
+              <img decode="async"
                 class="gcp2"
                 src="../assets/images/gcp/4.png"
                 alt="gcp 30 days"
               />
             </div>
             <div class="col-md-2">
-              <img
+              <img decode="async"
                 class="gcp2"
                 src="../assets/images/gcp/6.png"
                 alt="gcp 30 days"
               />
             </div>
             <div class="col-md-2">
-              <img
+              <img decode="async"
                 class="gcp"
                 src="../assets/images/gcp/7.png"
                 alt="gcp 30 days"
@@ -68,7 +68,7 @@
         <br />
         <div class="col-sm-6">
           <br />
-          <img src="../assets/images/icons/fcc.jpeg" class="cert-logo" />
+          <img decode="async" src="../assets/images/icons/fcc.jpeg" class="cert-logo" />
           <br />
           <br />
           <h2 id="fcc-a">FreeCodeCamp</h2>
@@ -100,7 +100,7 @@
         <div class="col-sm-6">
           <br />
           <br />
-          <img src="../assets/images/icons/coursera.jpeg" class="cert-logo" />
+          <img decode="async" src="../assets/images/icons/coursera.jpeg" class="cert-logo" />
           <br />
           <br />
           <h2 id="c-a">Coursera</h2>
@@ -130,7 +130,7 @@
         <div class="container">
           <div class="row">
             <div class="col-md-4">
-              <img
+              <img decode="async"
                 id="mongo"
                 src="../assets/images/icons/mongodb.jpg"
                 alt="mongo db university"

@@ -1,10 +1,10 @@
 FROM node:15.12.0-alpine3.10 as build-stage
-RUN npm install -g @vue/cli
+RUN yarn global add @vue/cli
 WORKDIR /app
-COPY package*.json ./
+COPY package.json ./
 RUN yarn install
 COPY ./ .
-RUN npm run build
+RUN yarn run build
 
 FROM nginx as production-stage
 RUN mkdir /app

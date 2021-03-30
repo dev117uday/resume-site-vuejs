@@ -3,7 +3,7 @@
     <br />
     <div id="front">
       <center>
-        <img
+        <img decode="async"
           class="non"
           id="profile-image"
           src="../assets/images/me.jpg"
@@ -24,7 +24,7 @@
           <b-row>
             <b-col class="text-right">
               <a target="_blank" v-bind:href="github">
-                <img
+                <img decode="async"
                   src="../assets/images/icons/github.svg"
                   alt="github"
                   class="logo"
@@ -33,7 +33,7 @@
             </b-col>
             <b-col>
               <a target="_blank" v-bind:href="linkedin">
-                <img
+                <img decode="async"
                   src="../assets/images/icons/linkedin.svg"
                   alt="linkedin"
                   class="logo"
@@ -42,7 +42,7 @@
             </b-col>
             <b-col class="text-left">
               <a target="_blank" :href="`mailto:${outlook}`">
-                <img
+                <img decode="async"
                   src="../assets/images/icons/outlook.png"
                   alt="outlook"
                   class="logo"
@@ -54,7 +54,7 @@
           <b-row>
             <b-col class="text-right">
               <a target="_blank" v-bind:href="instagram">
-                <img
+                <img decode="async"
                   src="../assets/images/icons/instagram.png"
                   alt="instagram"
                   class="logo"
@@ -63,7 +63,7 @@
             </b-col>
             <b-col>
               <a target="_blank" v-bind:href="twitter">
-                <img
+                <img decode="async"
                   src="../assets/images/icons/twitter.png"
                   alt="twitter"
                   class="logo"
@@ -72,7 +72,7 @@
             </b-col>
             <b-col class="text-left">
               <a target="_blank" v-bind:href="leetcode">
-                <img
+                <img decode="async"
                   src="../assets/images/icons/LeetCode.png"
                   alt="leetcode"
                   class="logo"

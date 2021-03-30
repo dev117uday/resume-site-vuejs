@@ -24,7 +24,7 @@
         <b-row>
           <b-col cols="6" class="fourx">
             <div style="background-color: #11100f;" id="one">
-              <img
+              <img decode="async"
                 src="../assets/images/icons/01.svg"
                 alt="binary"
                 class="symbols"
@@ -34,7 +34,7 @@
           </b-col>
           <b-col cols="6" class="fourx">
             <div style="background-color: white;" id="two">
-              <img
+              <img decode="async"
                 src="../assets/images/icons/golangT.png"
                 alt="golang"
                 class="symbols"
@@ -44,13 +44,13 @@
           </b-col>
           <b-col cols="6" class="fourx">
             <div style="background-color: white;" id="three">
-              <img src="../assets/images/icons/java.png" alt="java" id="java" />
+              <img decode="async" src="../assets/images/icons/java.png" alt="java" id="java" />
               <p class="short-dis-d 	non">{{ D }}</p>
             </div>
           </b-col>
           <b-col cols="6" class="fourx">
             <div style="background-color: #11100f;" id="four">
-              <img
+              <img decode="async"
                 src="../assets/images/icons/web symbol.svg"
                 alt="web"
                 class="symbols"

@@ -13,7 +13,7 @@
               <br />
               <b-row>
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/golangT.png"
                     alt="go"
                     class="prog-icon"
@@ -21,7 +21,7 @@
                   <h5>Golang</h5></b-col
                 >
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/java.png"
                     alt="cpp"
                     id="java"
@@ -31,7 +31,7 @@
               </b-row>
               <b-row>
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/js.png"
                     alt="js"
                     class="prog-icon"
@@ -39,7 +39,7 @@
                   <h5>JavaScript</h5></b-col
                 >
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/python.png"
                     alt="python"
                     class="prog-icon"
@@ -60,7 +60,7 @@
               <br />
               <b-row>
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/vuejs.png"
                     alt="vuejs"
                     class="prog-icon"
@@ -69,7 +69,7 @@
                 </b-col>
 
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/nodejs.png"
                     alt="nodejs"
                     class="prog-icon"
@@ -79,7 +79,7 @@
               </b-row>
               <b-row>
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/postgres.png"
                     alt="postgres"
                     class="prog-icon"
@@ -87,7 +87,7 @@
                   <h5>PostgreSQL</h5>
                 </b-col>
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/mongodb.png"
                     alt="mongodb"
                     class="prog-icon"
@@ -110,7 +110,7 @@
             <center>
               <b-row>
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/html5.png"
                     alt="Rust"
                     class="prog-icon"
@@ -118,7 +118,7 @@
                   <h5>HTML5</h5></b-col
                 >
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/css.png"
                     alt="css"
                     style="width: 40px; height: 50px"
@@ -126,7 +126,7 @@
                   <h5>CSS</h5></b-col
                 >
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/gcp.png"
                     alt="GCP"
                     class="prog-icon"
@@ -134,7 +134,7 @@
                   <h5>GCP</h5>
                 </b-col>
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/heroku.png"
                     alt="Heroku"
                     class="prog-icon"
@@ -154,7 +154,7 @@
             <center>
               <b-row>
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/docker.png"
                     alt="git"
                     id="docker"
@@ -162,7 +162,7 @@
                   <h5>Docker</h5></b-col
                 >
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/github.svg"
                     alt="github"
                     style="width: 40px; height: 50px"
@@ -170,7 +170,7 @@
                   <h5>Github</h5></b-col
                 >
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/linux.png"
                     alt="linux"
                     class="prog-icon"
@@ -178,7 +178,7 @@
                   <h5>Linux</h5></b-col
                 >
                 <b-col cols="6">
-                  <img
+                  <img decode="async"
                     src="../assets/images/icons/postman.png"
                     alt="mardown"
                     class="prog-icon"
